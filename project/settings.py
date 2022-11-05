@@ -81,13 +81,23 @@ WSGI_APPLICATION = 'project.wsgi.application'
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'deploydjango$django',
+#         'USER': 'deploydjango',
+#         'PASSWORD': 'Django1234',
+#         'HOST': 'deploydjango.mysql.pythonanywhere-services.com',
+#     }
+# }
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'deploydjango$django',
-        'USER': 'deploydjango',
-        'PASSWORD': 'Django1234',
-        'HOST': 'deploydjango.mysql.pythonanywhere-services.com',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd2720agmrskac8',
+        'USER': 'axlhkbaueipzqj',
+        'PASSWORD': '942771bb4bf6c25036a22eeb1d345baa30df793bf3a4be14a876ec881eb70deb',
+        'HOST': 'ec2-54-228-218-84.eu-west-1.compute.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
